@@ -34,11 +34,11 @@ Dear Concern,
 
 Following our team meeting, Estelle and I have outlined the approach to tackle PowerCo’s customer churn issue using the 5-step data science methodology. Here is our detailed plan:
 
-Step 1: Business Understanding & Problem Framing
+## Step 1: Business Understanding & Problem Framing
 
 Problem Formulation: PowerCo is experiencing high customer churn rates. Our goal is to identify the factors contributing to customer churn, with a focus on price sensitivity, and provide actionable insights to reduce churn rates.
 
-Step 2: Exploratory Data Analysis & Data Cleaning
+## Step 2: Exploratory Data Analysis & Data Cleaning
 
 Key Data Requirements:
 
@@ -69,7 +69,7 @@ Customer Interaction Data:
 Customer service interactions (number of complaints, resolution times, satisfaction ratings)
 Customer feedback and survey data
 
-Step 3: Feature Engineering
+## Step 3: Feature Engineering
 
 Potential Features to Engineer:
 
@@ -93,7 +93,7 @@ Usage Patterns:
 Monthly/seasonal usage trends
 Peak usage times and any penalties incurred
 
-Step 4: Modeling and Evaluation
+## Step 4: Modeling and Evaluation
 
 Techniques for Investigation:
 
@@ -112,7 +112,7 @@ Evaluation Metrics:
 Accuracy, precision, recall, and F1-score for classification models
 ROC-AUC for model performance evaluation
 
-Step 5: Insights & Recommendations
+## Step 5: Insights & Recommendations
 
 Visualization and Reporting:
 
