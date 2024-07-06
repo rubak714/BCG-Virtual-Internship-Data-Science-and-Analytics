@@ -36,102 +36,102 @@ Following our team meeting, Estelle and I have outlined the approach to tackle P
 
 ## Step 1: Business Understanding & Problem Framing
 
-Problem Formulation: PowerCo is experiencing high customer churn rates. Our goal is to identify the factors contributing to customer churn, with a focus on price sensitivity, and provide actionable insights to reduce churn rates.
+- Problem Formulation: PowerCo is experiencing high customer churn rates. Our goal is to identify the factors contributing to customer churn, with a focus on price sensitivity, and provide actionable insights to reduce churn rates.
 
 ## Step 2: Exploratory Data Analysis & Data Cleaning
 
-Key Data Requirements:
+- Key Data Requirements:
 
-Customer Data:
+- Customer Data:
 
-Customer demographics (age, gender, income level, etc.)
-Business type and size
-Location (geographical data)
+-- Customer demographics (age, gender, income level, etc.)
+-- Business type and size
+-- Location (geographical data)
 
-Transactional Data:
+- Transactional Data:
 
-Historical consumption patterns (monthly usage data)
-Billing and payment history
-Contract details (start date, end date, contract type)
+-- Historical consumption patterns (monthly usage data)
+-- Billing and payment history
+-- Contract details (start date, end date, contract type)
 
-Churn Data:
+- Churn Data:
 
-Historical churn data (which customers churned and when)
-Reasons for churn (if available)
+-- Historical churn data (which customers churned and when)
+-- Reasons for churn (if available)
 
-Competitive Data:
+- Competitive Data:
 
-Market pricing data from competitors
-Promotional offers and discounts from competitors
+-- Market pricing data from competitors
+-- Promotional offers and discounts from competitors
 
-Customer Interaction Data:
+- Customer Interaction Data:
 
-Customer service interactions (number of complaints, resolution times, satisfaction ratings)
-Customer feedback and survey data
+-- Customer service interactions (number of complaints, resolution times, satisfaction ratings)
+-- Customer feedback and survey data
 
 ## Step 3: Feature Engineering
 
 Potential Features to Engineer:
 
-Price Sensitivity:
+- Price Sensitivity:
 
-Price changes over time and corresponding changes in usage or churn rates
-Price difference between PowerCo and competitors for similar usage levels
+-- Price changes over time and corresponding changes in usage or churn rates
+-- Price difference between PowerCo and competitors for similar usage levels
 
-Customer Engagement:
+- Customer Engagement:
 
-Frequency and type of customer service interactions
-Customer satisfaction scores from surveys
+-- Frequency and type of customer service interactions
+-- Customer satisfaction scores from surveys
 
-Contractual Factors:
+- Contractual Factors:
 
-Duration of customer contracts
-Frequency of contract renewals
+-- Duration of customer contracts
+-- Frequency of contract renewals
 
-Usage Patterns:
+- Usage Patterns:
 
-Monthly/seasonal usage trends
-Peak usage times and any penalties incurred
+-- Monthly/seasonal usage trends
+-- Peak usage times and any penalties incurred
 
 ## Step 4: Modeling and Evaluation
 
 Techniques for Investigation:
 
-Exploratory Data Analysis (EDA):
+- Exploratory Data Analysis (EDA):
 
-Visualizations (histograms, scatter plots, box plots) to identify trends and anomalies
-Correlation analysis to find relationships between features and churn
+-- Visualizations (histograms, scatter plots, box plots) to identify trends and anomalies
+-- Correlation analysis to find relationships between features and churn
 
-Predictive Modeling:
+- Predictive Modeling:
 
-Classification models (Logistic Regression, Decision Trees, Random Forest, Gradient Boosting) to predict the likelihood of churn
-Time-series analysis to detect changes in consumption patterns over time
+-- Classification models (Logistic Regression, Decision Trees, Random Forest, Gradient Boosting) to predict the likelihood of churn
+-- Time-series analysis to detect changes in consumption patterns over time
 
-Evaluation Metrics:
+- Evaluation Metrics:
 
-Accuracy, precision, recall, and F1-score for classification models
-ROC-AUC for model performance evaluation
+-- Accuracy, precision, recall, and F1-score for classification models
+-- ROC-AUC for model performance evaluation
 
 ## Step 5: Insights & Recommendations
 
 Visualization and Reporting:
 
-Impact Analysis:
+- Impact Analysis:
 
 Heatmaps and correlation matrices to visualize relationships between price changes and churn
 Survival analysis to understand customer tenure and its correlation with churn
 
-Customer Segmentation:
+- Customer Segmentation:
 
 Cluster analysis to segment customers based on their characteristics and behaviors
 Targeted recommendations for each segment to reduce churn
 
-Reporting:
+- Reporting:
 
 Dashboards summarizing key findings and actionable insights
 Detailed reports with visualizations to communicate the value of the predictions and recommendations
 
-Key Reasons for Customer Churn:
+- Key Reasons for Customer Churn:
 
 Based on preliminary discussions, we believe the following factors could influence a customer’s decision to stay with or switch energy providers:
 
@@ -141,7 +141,7 @@ Quality of customer service
 Contract flexibility and terms
 Geographic location and associated energy regulations
 
-Data Analysis and Visualization:
+- Data Analysis and Visualization:
 
 Price Sensitivity Analysis: Visualize price changes and churn rates using line graphs and bar charts.
 Customer Segmentation: Use clustering algorithms to group customers and visualize these segments with scatter plots or cluster maps.
